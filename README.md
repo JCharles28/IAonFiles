@@ -27,7 +27,7 @@ python -m venv env
 !git clone https://github.com/doc-analysis/TableBank.git
 ```
 - Visualiser TableBank
-```
+``` bash
 !echo "Images en Latex"
 !ls -l /content/TableBank/data/Sampled_Detection_data/Latex/images
 

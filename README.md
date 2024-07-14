@@ -22,7 +22,18 @@ python -m venv env
 ``` bash
 !pip3 install -U timm requests opencv-python PyMuPDF pytesseract spacy
 ```
-- Clôner un dataset de test
+- Clôner un dataset de test, TableBank
+``` bash
+!git clone https://github.com/doc-analysis/TableBank.git
+```
+- Visualiser TableBank
+```
+!echo "Images en Latex"
+!ls -l /content/TableBank/data/Sampled_Detection_data/Latex/images
+
+!echo "Images en Word"
+!ls -l /content/TableBank/data/Sampled_Detection_data/Word/images
+```
 
 ## Technologies
 

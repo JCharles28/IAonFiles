@@ -27,12 +27,12 @@ python -m venv env
 !pip3 install -U timm requests opencv-python PyMuPDF pytesseract spacy
 ```
 
+## Dataset
+
 - Clôner un dataset de test, TableBank
 ``` bash
 !git clone https://github.com/doc-analysis/TableBank.git
 ```
-
-## Dataset
 
 - Visualiser TableBank
 ``` bash

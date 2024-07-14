@@ -2,6 +2,28 @@
 
 C'est le prototype de la détection de table et l'extraction de données, exploitable sur des documents tels que des fiches de paie, des factures etc.
 
+## Environnement
+
+- Installer Python
+- Créer un environnement
+``` bash
+python -m venv env
+```
+- Activer l'environnement
+  - Sur machine Linux/Ubuntu
+  ``` bash
+  source env/bin/activate
+  ```
+  - Sur machine Windows
+  ``` bash
+  ./env/Script/activate
+  ```
+- Installer toutes les librairies nécessaires
+``` bash
+!pip3 install -U timm requests opencv-python PyMuPDF pytesseract spacy
+```
+- Clôner un dataset de test
+
 ## Technologies
 
 - Python

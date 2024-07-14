@@ -4,28 +4,34 @@ C'est le prototype de la détection de table et l'extraction de données, exploi
 
 ## Environnement
 
-- Installer Python
+- Installer `Python 3.10.12`
+
 - Créer un environnement
 ``` bash
 python -m venv env
 ```
+
 - Activer l'environnement
   - Sur machine Linux/Ubuntu
   ``` bash
   source env/bin/activate
   ```
+  
   - Sur machine Windows
   ``` bash
   ./env/Script/activate
   ```
+
 - Installer toutes les librairies nécessaires
 ``` bash
 !pip3 install -U timm requests opencv-python PyMuPDF pytesseract spacy
 ```
+
 - Clôner un dataset de test, TableBank
 ``` bash
 !git clone https://github.com/doc-analysis/TableBank.git
 ```
+
 - Visualiser TableBank
 ``` bash
 !echo "Images en Latex"

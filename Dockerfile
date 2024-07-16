@@ -6,11 +6,10 @@ WORKDIR ./app
 RUN python3 -m venv /opt/venv
 RUN source ./env/bin/activate
 
-RUN 
-
 # installation des librairies nécessaires (dans l'environnement)
 COPY requirements.txt ./
 RUN /opt/venv/bin/pip install --no-cache-dir -r requirements.txt
+
 
 COPY src ./app/src
 EXPOSE 8000
